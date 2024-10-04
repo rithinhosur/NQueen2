@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#board {
+    display: grid;
+    margin: 20px auto;
+    gap: 0;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+}
+
+.white {
+    background-color: #f0f0f0;
+}
+
+.black {
+    background-color: #333;
+}
+
+.queen {
+    width: 50px;
+    height: 50px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b1/Chess_qlt60.png'); /* Queen image */
+    background-size: cover;
+}
