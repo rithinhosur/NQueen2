@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>N-Queens Visualizer</title>
+    <title>N-Queens Solver</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>N-Queens Visualizer</h1>
-    <div>
-        <label for="n">Number of Queens (N): </label>
-        <input type="number" id="n" value="4" min="1" max="10">
-        <button id="solveBtn">Solve</button>
-    </div>
-    <div id="board"></div>
+    <header>
+        <h1>N-Queens Solver</h1>
+        <input type="number" id="n" placeholder="Enter N (e.g., 8)" min="1" max="15">
+        <button onclick="solveNQueens()">Solve</button>
+    </header>
+    <div id="puzzleGrid"></div>
     <script src="script.js"></script>
 </body>
 </html>
